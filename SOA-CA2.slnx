@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SOA-CA2.Api/SOA-CA2.Api.csproj" Id="969f3d38-8dab-4248-9ead-b3ae4506c0ca" />
+  <Project Path="SOA-CA2.Client/SOA-CA2.Client.csproj" Id="1b10fe3f-4711-4cad-9018-524b46578490" />
+  <Project Path="SOA-CA2.Shared/SOA-CA2.Shared.csproj" Id="53a79949-4f45-433d-8109-8d96840b6745" />
+  <Project Path="SOA-CA2.Test/SOA-CA2.Test.csproj" Id="e4c5ddb9-2c1a-425e-9ddb-b9f7153514da" />
+</Solution>
