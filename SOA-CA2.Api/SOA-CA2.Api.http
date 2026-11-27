@@ -1,6 +1,33 @@
-@SOA_CA2.Api_HostAddress = http://localhost:5279
+@SOA_CA2.Api_HostAddress = https://localhost:7057
 
-GET {{SOA_CA2.Api_HostAddress}}/weatherforecast/
+### Get all games
+GET {{SOA_CA2.Api_HostAddress}}/api/v1/games
 Accept: application/json
 
-###
+### Create a game
+POST {{SOA_CA2.Api_HostAddress}}/api/v1/games
+Content-Type: application/json
+
+{
+  "title": "CS2",
+  "genre": "Shooter",
+  "platform": "PC"
+}
+
+### Get one game
+GET {{SOA_CA2.Api_HostAddress}}/api/v1/games/1
+Accept: application/json
+
+### Update a game
+PUT {{SOA_CA2.Api_HostAddress}}/api/v1/games/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "CS2",
+  "genre": "Shooter",
+  "platform": "PC-Windows"
+}
+
+### Delete a game
+DELETE {{SOA_CA2.Api_HostAddress}}/api/v1/games/1
